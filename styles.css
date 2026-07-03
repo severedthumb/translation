@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+
+    font-family: Georgia, serif;
+    line-height: 1.5;
+    color: rgb(40, 40, 40);
+}
+
+header, main {
+    margin: 0 auto;
+    width: 92%;
+    max-width: 1200px;
+}
+
+.texts {
+    display: flex;
+    gap: 30px;
+}
+
+.text-english, .text-german, .text-spanish {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+h1 {
+    font-size: 2.25rem;
+    /* border: 1px solid blue; */
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+}
+
+p {
+    font-size: 1rem;
+    /* border: 1px solid orange; */
+}
